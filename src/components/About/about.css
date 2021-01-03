@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.about-page h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.about-page h1 span {
+    color: var(--thrid-color);
+}
+
+.about-page h2 {
+    text-transform: lowercase;
+}
+
+.about-page p::first-letter {
+    font-size: 2rem;
+    padding: .5rem;
+    color: var(--thrid-color);
+}
+
+
+.social-icon {
+    margin-top: 2rem;
+}
+
+.social-icon ul {
+    display: flex;
+}
+
+.social-icon ul li:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.social-icon ul li {
+    background-color: var(--fourty-color);
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.social-icon ul li a {
+    color: var(--default-color);
+}
+
+.social-icon ul li:hover {
+    color: var(--fourty-color);
+    background-color: transparent;
+    border: 1px solid;
+    transform: translateY(-4px);
+}
+
+.social-icon ul li:hover a {
+    color: var(--fourty-color);
+}
