@@ -85,3 +85,58 @@ main {
   flex: 3;
   background-color: var(--fifty-color);
 }
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-up {
+  animation-name: fadeInUp;
+  animation-duration: 0.25s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-right {
+  animation-name: fadeInRight;
+  animation-duration: 0.25s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

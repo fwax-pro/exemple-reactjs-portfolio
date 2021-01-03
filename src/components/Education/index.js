@@ -1,7 +1,7 @@
 import './education.css';
 
 const EducationPage = () => (
-    <section className="education-page">
+    <section className="education-page fade-in-up">
         <article>
             <div className="heading">
                 <h1>Government Tolaram College, Narayanganj</h1>

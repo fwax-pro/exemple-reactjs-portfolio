@@ -19,13 +19,13 @@ const Navigation = () => (
             <img className="img-responsive" src={portraitImg} />
         </div>
         <ul className="menu">
-            <li>
+            <li className="fade-in-up">
                 <Link to={ABOUT}>about</Link>
             </li>
-            <li>
+            <li className="fade-in-up">
                 <Link to={EDUCATION}>education</Link>
             </li>
-            <li>
+            <li className="fade-in-up">
                 <Link to={EXPERIENCE}>experience</Link>
             </li>
         </ul>

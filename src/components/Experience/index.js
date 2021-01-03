@@ -1,7 +1,7 @@
 import './experience.css';
 
 const ExperiencePage = () => (
-    <section className="experience-page">
+    <section className="experience-page fade-in-right">
         <article>
             <div className="heading">
                 <h1>Frontend Developer</h1>

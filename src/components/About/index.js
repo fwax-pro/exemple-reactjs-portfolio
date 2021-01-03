@@ -4,7 +4,7 @@ import {faLinkedin, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icon
 import './about.css';
 
 const AboutPage = () => (
-    <section className="about-page">
+    <section className="about-page fade-in">
         <h1>John<span>Doe</span></h1>
         <h2>frontend developer - everywhere - contact@test.com</h2>
         <p>I’m with broad technical skill-set, very strong attention to detail, and <b>3 years of experience</b> in front-end web development.</p> 
